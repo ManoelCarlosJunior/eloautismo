@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  <!--Meta dados ou seja não aparece no corpa da pagina-->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EloAutismo</title> <!--Titulo do nosso projeto na aba -->
+    <link rel="stylesheet" href="style.css"> <!--ags e atributos para linkar o CSS-->
+</head>
+<body>
+    <header> <!--Tag para cabeçalho-->
+        <h1>Projetos de Inclusão para pessoas com TEA no Brasil</h1> <!--H1 tag de titulo1 Existem Titulos até 6-->
+        <a href="https://youtu.be/8uTHFYAQtnA?si=bvNg5ghlJgiX8tj1" target="_blank"><h2>clique aqui:TEA - Transtorno do Espectro Autista</h2></a>
+    </header>
+    <main>
+        
+        <section><!--Diz que o que esta dentro dessa tag é uma seção-->
+            <input type="text" placeholder="Digite o estado e/ou cidade" id="campo-pesquisa">
+            <button onclick ="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa"  id="resultados-pesquisa"></section>
+            
+        
+    </main> <!-- mais é a tag de conteudo principal usada abaixo do header-->
+        <footer>
+            <p>2024 - Projeto EloAutismo. Todos os direitos reservados</p>
+            <p>Entre em contato com: manoelcarlosjunior@yahoo.com.br</p>
+        </footer>
+        <!--A tag Script referencia os arquivos de dados do projeto-->
+        <script src="dados.js"></script>
+        <script src="app.js"></script>
+</body>
+</html>
